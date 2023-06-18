@@ -1,0 +1,9 @@
+#root{
+
+
+}
+.background-style {
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}

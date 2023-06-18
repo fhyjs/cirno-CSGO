@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="1040.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.fhyjs.cirno.csgo.cirnocsgo.MainController">
+  <tabs>
+    <Tab text="连接CSGO">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane layoutX="181.0" layoutY="55.0" prefHeight="230.0" prefWidth="220.0" style="-fx-background-color: rgba(161, 255, 252, .3);;" AnchorPane.bottomAnchor="86.0" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="199.0" AnchorPane.topAnchor="55.0">
+                     <children>
+                        <TextField layoutX="25.0" layoutY="39.0" prefHeight="31.0" prefWidth="403.0" AnchorPane.bottomAnchor="384.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="232.0" AnchorPane.topAnchor="39.0" />
+                     </children>
+                  </AnchorPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
